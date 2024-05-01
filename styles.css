@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: row;
     flex: 1;
+    background: rgb(238, 238, 238);
 }
 .img-container {
     width: 33%;
@@ -32,7 +33,7 @@ body {
     position: relative;
     bottom: 15%;
     color: white;
-    font-size: 4rem;
+    font-size: 50px;
 }
 .img-container p {
     position: absolute;
@@ -50,4 +51,26 @@ body {
     display: flex;
     flex: 1;
     width: auto;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.form-header {
+    margin-right: 150px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.form-header p {
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    max-inline-size: 66ch;
+    font-weight: bold;
+}
+.form-container {
+    background: white;
+    box-shadow: darkgray 5px 5px;
+    /* padding: 25px; */
+}
+form input {
+    /* margin: 10px; */
 }
